@@ -1,4 +1,3 @@
 {
-  "python.pythonPath": "/Users/evinai/Documents/CS-Courses/Web-Applications/Django/DJ-BRAD-RealEstate/venv/bin/python",
-  "git.ignoreLimitWarning": true
+  "python.pythonPath": "venv/bin/python"
 }
