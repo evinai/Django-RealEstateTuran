@@ -2,6 +2,8 @@
 
 {% load humanize %}
 
+{% block title %} | Hosgeldiniz {% endblock %}
+
 
 {% block content %}
 
@@ -13,7 +15,7 @@
     <div class="home-search p-5">
       <div class="overlay p-5">
         <h1 class="display-4 mb-4">
-          Property Searching Just Got So Easy
+          Ev Bulmak Artik Daha Kolay
         </h1>
           <p class="lead"> Hayalinizdeki evi aramaktan vazgeçmeyin..! </p>
           <div class="search">
@@ -76,6 +78,11 @@
       </div>
     </div>
 </section>
+
+<!-- Alerts -->
+{% include 'partials/_alerts.html' %}
+
+
 
 <!-- Listings -->
 <section id="listings" class="py-5">
